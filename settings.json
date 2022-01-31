@@ -62,7 +62,7 @@
   "prettier.singleQuote": true,
   "files.autoSave": "afterDelay",
   "editor.fontLigatures": true,
-  "editor.tabSize": 3,
+  "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "git.autofetch": true,
   "yaml.schemas": {
@@ -107,5 +107,35 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "explorer.sortOrder": "type",
+  // "editor.cursorBlinking": "smooth",
+  "files.trimFinalNewlines": true,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorBlinking": "expand",
+  "breadcrumbs.enabled": true,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "editor.mouseWheelScrollSensitivity": 5,
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "files.associations": {
+  //   "*.js": "javascriptreact"
+  // }
+
+  // minimap
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.showSlider": "always",
+
+  // smoot scroll
+  "editor.smoothScrolling": true,
+
+  // whitespace
+  "editor.renderWhitespace": "boundary",
+
+  //final new currentLine
+  "files.insertFinalNewline": true
 }
