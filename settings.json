@@ -1,0 +1,111 @@
+{
+  "liveshare.audio.joinCallBehavior": "accept",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000000",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#a884a6",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#00bbff",
+    "terminal.ansiBrightBlack": "#ff0000",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#56d826",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#bd218e",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#e49629",
+    "terminal.ansiYellow": "#FAC03B",
+
+    // brackets
+    "editorBracketHighlight.foreground1": "#B48EAD",
+    "editorBracketHighlight.foreground2": "#A3BE8C",
+    "editorBracketHighlight.foreground3": "#EBCB8B",
+    "editorBracketHighlight.foreground4": "#D08770",
+    "editorBracketHighlight.foreground5": "#BF616A",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.profiles.windows": {
+    "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": []
+    },
+    "C:\\Users\\mr.root\\AppData\\Local\\Microsoft\\WindowsApps\\debian.exe (migrated)": {
+      "path": "C:\\Users\\mr.root\\AppData\\Local\\Microsoft\\WindowsApps\\debian.exe",
+      "args": []
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "tabnine.experimentalAutoImports": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "files.autoSave": "afterDelay",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 3,
+  "editor.wordWrap": "wordWrapColumn",
+  "git.autofetch": true,
+  "yaml.schemas": {
+    "file:///c%3A/Users/mr.root/.vscode/extensions/atlassian.atlascode-2.10.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.formatOnSave": true,
+
+  "atlascode.jira.jqlList": [
+    {
+      "id": "3afeff6b-1b67-4f9a-9605-4ec30e5c6321",
+      "enabled": true,
+      "name": "My nadihealth Issues",
+      "query": "assignee = currentUser() ORDER BY lastViewed DESC",
+      "siteId": "03a2857d-ffa0-41f3-9661-a92010220fa8",
+      "monitor": true
+    }
+  ],
+  "window.zoomLevel": -1,
+  "editor.cursorStyle": "block",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "js-codeformer.useSemicolons": false,
+
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.alwaysShowStatus": true,
+  "html.format.enable": false,
+  "htmlhint.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace"
+}
